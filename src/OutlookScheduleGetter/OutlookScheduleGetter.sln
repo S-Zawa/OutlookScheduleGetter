@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutlookScheduleGetter", "OutlookScheduleGetter\OutlookScheduleGetter.csproj", "{A25D619A-6042-43C0-9F13-461BD8D3E36D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ソリューション項目", "ソリューション項目", "{C4563C96-0BCD-4342-91B1-475275BF46FB}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.ruleset = .ruleset
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A25D619A-6042-43C0-9F13-461BD8D3E36D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A25D619A-6042-43C0-9F13-461BD8D3E36D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A25D619A-6042-43C0-9F13-461BD8D3E36D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A25D619A-6042-43C0-9F13-461BD8D3E36D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {715F5679-E549-430A-912E-5F54EB66466A}
+	EndGlobalSection
+EndGlobal
