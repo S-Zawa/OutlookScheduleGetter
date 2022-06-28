@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Extensions.Configuration;
+using OutlookScheduleGetter.Domains;
 
 namespace OutlookScheduleGetter
 {
@@ -9,7 +10,8 @@ namespace OutlookScheduleGetter
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var configuration = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
+            var appSettings = configuration.Get<AppSettings>();
         }
     }
 }
